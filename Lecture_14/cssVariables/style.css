@@ -1,0 +1,12 @@
+:root{
+    --bg-color:#d7dd33;
+    --bg-color-red:red;
+    --bg-color-green:green;
+
+    --font-size-bada:30px;
+}
+
+article,h2,h3{
+    background-color: var(--bg-color);
+    font-size: var(--font-size-bada);
+}
