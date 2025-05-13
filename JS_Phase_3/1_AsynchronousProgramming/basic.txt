@@ -1,0 +1,18 @@
+Js is a interpreter , synchronous, single threaded, weakly typed, dynamically typed programming language.
+
+Synchronous : line by line code execution
+
+Asynchronous Programming :
+
+*-------*--------*--------*--------*
+Web APIs, part of browser :
+SetTimeout()
+SetInterval()
+fetch
+location
+console
+
+*-------*--------*--------*--------*
+types of Engine :
+1. JS Engine (Java script)
+2. Layout engine(Html, css)

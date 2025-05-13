@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.col {
+    color: red;
+}
+
+.bgcol {
+    background-color: yellow;
+}
+
+.bor {
+    border: 3px dashed brown;
+}
