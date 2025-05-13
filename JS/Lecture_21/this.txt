@@ -1,0 +1,10 @@
+"This" keyword depends on how it is being calling
+
+1. Function Calling  
+2. Method Calling    --> 
+3. Constructor Calling
+4. Indirect Calling
+5. Arrow Function
+
+Function Calling--> Direct function ko call karna
+Method Calling-->  
