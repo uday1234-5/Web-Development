@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: o;
+        }
+        .header-section {
+            border: 2px solid black;
+        }
+        .header-section-table{
+            border: 3px solid green;
+            width: 100%;
+        }
+        .cb-logo,.header-section-heading,.enquiry-info{
+            width: 30%;
+            border: 2px solid red;
+        }
+        .cb-logo-image {
+            background-image: url('cb_image.png');
+            height: 100px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 80%;
+            margin: auto;
+            background-color: aqua;
+        }
+
+        .application-text,.enquiry-text{
+            margin: auto;
+            width: 80%;
+            border: 2px solid black;
+            font-size: 25px;
+        }
+
+        .enquiry-checkbox input{
+            height: 20px;
+            width: 20px;
+        }
+        .enquiry-enrolled input{
+            height: 20px;
+            width: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="cb-form">
+
+        <!-- Header section starts -->
+        <section class="header-section">
+            <table class="header-section-table">
+                <tr>
+                    <td class="cb-logo">
+                        <div class="cb-logo-image"></div>
+                    </td>
+                    <td class="header-section-heading">
+                        <div class="application-text">
+                            Student Application Form
+                        </div>
+                        
+                    </td>
+                    <td class="enquiry-info">
+                        <div class="enquiry-text">
+                            <div class="enquiry-checkbox">
+                                <input type="checkbox" name="" id="">  Enquery
+                            </div>
+                            <div class="enquiry-enrolled">
+                                <input type="checkbox" name="" id="">  Enrolled
+                            </div>
+                        </div>
+                       
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <!-- Header section ends -->
+
+
+        <!-- user information start -->
+        <!-- user information end -->
+
+    </div>
+</body>
+</html>

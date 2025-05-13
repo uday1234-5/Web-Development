@@ -1,0 +1,39 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.parent {
+    width: 650px;
+    /* height: 350px; */
+    border: 3px solid black;
+}
+
+.child-1,.child-2{
+    width: 48%;
+}
+
+.child-1{
+    border: 3px solid saddlebrown;
+    float: left;   /*child-1 div parent se bahar aa jayega left mai*/
+}
+.child-2{
+    border: 3px solid rgb(16, 142, 5);
+    float: right;    /*child-2 div parent se bahar aa jayega right mai  or parent collapsed kar jayega*/
+}
+
+/* .parent-ko-collapse-hone-se-rokna{
+    clear: both;
+} */
+
+/* hamara iski vajah se 1 div extra add ho rha tha  */
+/* .clear-fix{      
+    clear: both;;
+} */
+
+/* clear-both using pseudo element on parent  */
+.parent::after{
+    content: "";
+    clear: both;
+    display: block;
+}

@@ -1,0 +1,122 @@
+
+
+@media screen and (min-width:1292px) {
+    .author .author-name{
+        font-size: 22px;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+    .container{
+        width: 70%;
+        margin: 70px auto;
+        
+    }
+    .author-info{
+        width: 20%;
+        float: right;
+        margin: 10px;
+        padding: 10px;
+        
+    }
+    .author{
+        margin: 10px;
+        width: 60%;
+        float: left;
+        padding: 10px;
+    }
+    
+    .clear-fix{
+        clear: both;
+    }
+    
+    th{
+        text-align: left;
+    }
+    td{
+        text-align: center;
+    }
+    
+}
+
+
+
+
+
+@media screen and (min-width:900px) and (max-width:1291px) {
+    .author .author-name{
+        font-size: 22px;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+    .container{
+        width: 80%;
+        margin:70px auto;
+    }
+    .author-info{
+        width: 20%;
+        float: right;
+        margin: 10px;
+        padding: 10px;
+        
+    }
+    .author{
+        margin: 10px;
+        width: 60%;
+        float: left;
+        padding: 10px;
+    }
+    
+    .clear-fix{
+        clear: both;
+    }
+    
+    th{
+        text-align: left;
+    }
+    td{
+        text-align: center;
+    }
+    
+}
+
+
+
+
+
+
+@media screen and (max-width:899px) {
+    .author .author-name{
+        font-size: 22px;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+    .container{
+        width: 100%;
+        
+    }
+    .author-info{
+        /* width: 20%; */
+        /* float: right; */
+        margin: 10px;
+        padding: 10px;
+        
+    }
+    .author{
+        margin: 10px;
+        /* width: 60%; */
+        /* float: left; */
+        padding: 10px;
+    }
+    
+    .clear-fix{
+        clear: both;
+    }
+    
+    th{
+        text-align: left;
+    }
+    td{
+        text-align: center;
+    }
+    
+}

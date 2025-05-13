@@ -1,0 +1,33 @@
+.container{
+    /* border: 3px solid black; */
+    height: 500px;
+    width: 1080px;
+    margin: auto;
+    margin-top: 170px;
+  
+}
+
+.carousel-heading{
+    font-size: 80px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.carousel-text{
+    margin-top: 30px ;
+    margin-bottom: 30px ;
+    font-size: 24px;
+    /* border: 2px solid black; */
+    width : 430px;
+}
+
+.carousel-button{
+    border: px solid black;
+    height: 40px;
+    background-color: black;
+    color: white;
+    width: 180px;
+    border: none;
+    font-size: 20px;
+    border-radius: 50px;
+}

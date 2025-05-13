@@ -1,0 +1,22 @@
+.div{
+    width: 200px;
+    height: 300px;
+    background-color: orange;
+    margin: 50px auto;
+    border: 4px solid rgb(0, 0, 0);
+    transition: 2s;
+}
+.div1{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(145, 98, 10);
+    margin: 50px auto;
+    border: 4px solid rgb(0, 0, 0);
+    transform: rotatez(45deg);
+}
+
+.div:hover{
+    transform: rotateZ(75deg);
+    border-radius: 50%;
+}
+
