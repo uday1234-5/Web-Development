@@ -1,0 +1,2 @@
+ outerFun();
+// console.log(f);

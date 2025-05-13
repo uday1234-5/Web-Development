@@ -1,0 +1,50 @@
+<<<<<<< HEAD
+If we "type" node and press "enter" on the terminal. then we get
+> 10+20
+o/p : 30
+
+-> ***REPL : Read Evalute Print Loop***
+
+> 30+12
+42
+> -1/0
+-Infinity
+> 0/0
+NaN
+> 1/0
+Infinity
+> 1/"Hello"
+NaN
+> "Hello"+"World"
+'HelloWorld'
+> let a
+undefined
+
+----------------------------------------------
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+=======
+If we "type" node and press "enter" on the terminal. then we get
+> 10+20
+o/p : 30
+
+-> ***REPL : Read Evalute Print Loop***
+
+> 30+12
+42
+> -1/0
+-Infinity
+> 0/0
+NaN
+> 1/0
+Infinity
+> 1/"Hello"
+NaN
+> "Hello"+"World"
+'HelloWorld'
+> let a
+undefined
+
+----------------------------------------------
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+>>>>>>> 6153ead68a2361ac2bec0f7954bb2e69763e4792
+----------------------------------------------

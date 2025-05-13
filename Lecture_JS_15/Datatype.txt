@@ -1,0 +1,63 @@
+<<<<<<< HEAD
+➡️ Strongly typed and Weakly typed
+➡️ Dynamically typed and Statically typed
+
+
+➡️ Variable :
+1. Var
+2. let
+3. const
+# Buckets that can store values
+
+
+➡️ Datatype :
+1. Number 
+2. String
+3. function 
+4. Array
+5. Object
+6. Symbol
+7. null
+8. Undefined
+9. BigInt
+10. Boolean
+
+
+💯 Extension : Code runner
+
+⚡To run code in terminal
+1. click on terminal(🔼)
+2. click on the up arrow key and click on the "Config terminal setting" .
+3. Search "Runner code" on search bar.
+=======
+➡️ Strongly typed and Weakly typed
+➡️ Dynamically typed and Statically typed
+
+
+➡️ Variable :
+1. Var
+2. let
+3. const
+# Buckets that can store values
+
+
+➡️ Datatype :
+1. Number 
+2. String
+3. function 
+4. Array
+5. Object
+6. Symbol
+7. null
+8. Undefined
+9. BigInt
+10. Boolean
+
+
+💯 Extension : Code runner
+
+⚡To run code in terminal
+1. click on terminal(🔼)
+2. click on the up arrow key and click on the "Config terminal setting" .
+3. Search "Runner code" on search bar.
+4. Then enable the check button "Code-Runner : Run in terminal".

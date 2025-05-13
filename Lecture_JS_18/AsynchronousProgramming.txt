@@ -1,0 +1,54 @@
+<<<<<<< HEAD
+Synchronous Code :
+-> code execute line by line
+
+
+Asynchronous Programming :
+
+JS : Single Threaded Language -> it has only one call stack
+
+Disadvantage of Single threaded :
+1. Jab tak delay poora nhi ho jata tab tak aage nhi jaa sakta.
+jis se poora website freeze ho jayega
+This is a big issue for the js.
+
+
+Solution for Single Thread :
+Asynchronous Programming :
+1. Js ka thread free karna hai taaki browser freeze na ho, lekin
+    5 sec ka delay bhi jaroori hai, us ignore nhi kar sakte
+
+-> It's highly required jaha delay needed hai
+        -> Movie download
+        -> song play/ Movie play
+1. Set TimeOut
+2. Set Interval
+from point 1 and point 2, we can write Asynchronous code.
+
+
+-----------------------------
+Browswer C++ mai likhi gayi hai
+toh mutli threading possible hai
+=======
+Asynchronous Programming :
+
+JS : Single Threaded Language -> it has only one call stack
+
+Disadvantage of Single threaded :
+1. Jab tak delay poora nhi ho jata tab tak aage nhi jaa sakta.
+jis se poora website freeze ho jayega
+This is a big issue for the js.
+
+
+Solution for Single Thread :
+Asynchronous Programming :
+1. Js ka thread free karna hai taaki browser freeze na ho, lekin
+    5 sec ka delay bhi jaroori hai, us ignore nhi kar sakte
+
+-> It's highly required jaha delay needed hai
+        -> Movie download
+        -> song play/ Movie play
+1. Set TimeOut
+2. Set Interval
+from point 1 and point 2, we can write Asynchronous code.
+>>>>>>> 6153ead68a2361ac2bec0f7954bb2e69763e4792
