@@ -1,0 +1,88 @@
+/* You can choos more colors from this site : "https://coolors.co/588b8b-ffffff-ffd5c2-f28f3b-c8553d" */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    height: 200px;
+    width:200px;
+    border: 4px solid black;
+}
+
+
+
+/* Hexa decimal */
+/* div:nth-of-type(1) {
+   
+   background-color:  #44249f;
+}
+
+div:nth-of-type(2) {
+   
+    background-color: #bc2356;
+}
+
+div:nth-of-type(3) {
+   
+    background-color: #F28F3B;
+}
+
+ */
+
+
+
+
+/* Hexa decimal color with opacity -> [00 - ff]     */
+div:nth-of-type(1) {
+   
+   background-color:  #44249f9f;
+}
+
+div:nth-of-type(2) {
+   
+    background-color: #bc235688;
+}
+
+div:nth-of-type(3) {
+   
+    background-color: #67af23aa;
+}
+
+
+
+
+/* RGB */
+/* div:nth-of-type(1) {
+   
+   background-color:  rgb(200, 100, 34);
+}
+
+div:nth-of-type(2) {
+   
+    background-color: rgb(20,200,70);
+}
+
+div:nth-of-type(3) {
+   
+    background-color: rgb(60, 100, 200);
+} */
+ 
+
+
+/* rgba  (a -> alpha channel -> range [0-1]  ==================) */
+/* div:nth-of-type(1) {
+   
+   background-color:  rgba(200, 100, 34,0.5);
+}
+
+div:nth-of-type(2) {
+   
+    background-color: rgba(20,200,70,0.2);
+}
+
+div:nth-of-type(3) {
+   
+    background-color: rgba(60, 100, 200,0.5);
+} */

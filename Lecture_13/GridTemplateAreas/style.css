@@ -1,0 +1,130 @@
+/* Using Simple Row and column */
+/* .container {
+    height: 90%;
+    width: 90%;
+    background-color: cornflowerblue;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 30PX auto;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 3fr 3fr 1fr;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+}
+
+div {
+    border: 1px solid black;
+}
+
+.header {
+    background-color: chocolate;
+    grid-row: 1/1;
+    grid-column: 1/4;
+    align-content: center;
+    padding-left: 50%;
+}
+
+.main {
+    background-color: cyan;
+    grid-column: 2/4;
+    grid-row: 2/4;
+    align-content: center;
+}
+
+.nav1 {
+    background-color: yellow;
+    grid-row: 2/4;
+    align-content: center;
+}
+
+.nav2 {
+    background-color: greenyellow;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.nav3 {
+    background-color: purple;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.footer {
+    background-color: darkblue;
+    grid-column: 1/4;
+    grid-row: 4/5;
+    color: wheat;
+} */
+
+
+
+
+
+/* Using Grid Template areas */
+.container {
+    height: 90%;
+    width: 90%;
+    background-color: cornflowerblue;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 30PX auto;
+    display: grid;
+    /* no. of columns -> 3 */
+    grid-template-columns: 1fr 5fr 1fr;
+    /* no. of rows -> 4 */
+    grid-template-rows: 1fr 5fr 5fr 1fr;
+    /* total no. of area(row x col) = 3x4=12 */
+    grid-template-areas:"header header header"
+                        "nav1 main nav2"
+                        "nav1 main nav3"
+                        "footer footer footer" ;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+}
+
+div {
+    border: 1px solid black;
+    /* margin: 2px; */
+}
+
+.header {
+    background-color: chocolate;
+    grid-area: header;
+}
+
+.main {
+    background-color: cyan;
+    grid-area: main;
+}
+
+.nav1 {
+    background-color: yellow;
+    grid-area: nav1;
+}
+
+.nav2 {
+    background-color: greenyellow;
+    grid-area: nav2;
+}
+
+.nav3 {
+    background-color: purple;
+    grid-area: nav3;
+}
+
+.footer {
+    background-color: darkblue;
+    color: wheat;
+    grid-area: footer;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}

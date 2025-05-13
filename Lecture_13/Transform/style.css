@@ -1,0 +1,43 @@
+h1 {
+    font-size: 40px;
+    color: lightslategrey;
+
+    /* for text shadow, prefer markotto site */
+    text-shadow: 0px 10px 4px grey;
+    transition: 2s;
+    /* margin: 200px; */
+    margin-left: 30vw;
+    margin-top: 160px;
+}
+
+h1:hover {
+    /* transform:translateX(200px); */
+    /* transform:translateX(-200px); */
+    /* transform:translateY(200px); */
+    /* transform:translateY(-200px); */
+    /* transform:translateZ(200px); */
+    /* transform:translateZ(-200px); */
+
+    /* covers the both x-axis and y-axis */
+    /* transform: translate(200px,-150px); */
+
+    /* transform: rotate(90deg); */
+    /* transform: rotateX(180deg); */
+    /* transform: rotateX(3680deg); */
+    /* transform: rotateY(90deg); */
+    /* transform: rotateY(180deg); */
+    /* transform: rotateZ(180deg); */
+    /* transform: rotateZ(3600deg); */
+
+    /* font-size will be after scaling : 1.2 x given-font size */
+    /* transform: scaleX(1.2); */
+    /* transform: scaleX(2); */
+    /* transform: scaley(2); */
+    /* transform: scalez(2); */
+
+    /* transform: scale(2,2); */
+
+    /* transform: skewX(180deg); */
+    /* transform: skewY(-20deg); */
+    transform: skew(20deg,-30deg);
+}

@@ -1,0 +1,51 @@
+/* #abs {
+    font-weight: 900;
+    font-style: oblique;
+    font-size: 20px;
+} */
+
+
+/* %  =================================== */
+/* .a1 p{
+    font-size: 50%;
+} */
+
+/* .a1 {
+    font-size: 200px;
+} */
+
+
+
+/* em  ------------------------------------- */
+
+/* .fs {
+    font-size: 20px;
+}
+
+
+ul li {
+    font-size: 2em;
+} */
+
+
+
+
+/* rem  ------------------------------------- */
+/* 
+.fs {
+    font-size: 20px;
+}
+
+
+ul li {
+    font-size: 2rem;
+} */
+
+
+
+/* vh & vw -> View Height and view width  ------ */
+.height {
+    background-color: deeppink;
+    height: 50vh;
+    width: 50vw;
+}

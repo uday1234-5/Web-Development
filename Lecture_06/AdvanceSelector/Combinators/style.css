@@ -1,0 +1,52 @@
+/* Html is a root element */
+
+/* Advance Selector
+
+1. Combinators
+      i. Descendent
+     ii. Child
+    iii. Adjacent Sibling
+     iv. General Sibling
+2. Pseudo Classes
+3. Structural pseudo classes 
+4. String Matching 
+*/
+
+
+/* Combinators  ======================================= */
+/* i. Descendent (" ")*/
+/* section -> div -> p */
+/* section div p{
+      color: rgb(0, 38, 255);
+} */
+/* 
+section section div p{
+      color: blueviolet;
+} */
+
+/* section p{
+      color: rgb(0, 38, 255);
+} */
+
+
+/* ii. Child Selector(">") ------------------------------------ */
+/* section>div>h3{
+      color: blueviolet;
+} */
+
+
+/* iii. Adjacent Sibling("+") ---------------------------------- */
+/* article+section {
+      background-color: aqua;
+} */
+
+/* section+article{
+      background-color: yellow;
+} */
+
+/* iv. General Sibling("~") Right direction-------------------------- */
+
+section~article {
+      background-color: blue;
+      color: antiquewhite;
+}

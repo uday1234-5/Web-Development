@@ -1,0 +1,106 @@
+/* Advance Selector
+
+1. Combinators
+      i. Descendent
+     ii. Child
+    iii. Adjacent Sibling
+     iv. General Sibling
+2. Pseudo Classes
+      i. Hover
+     ii. Active
+    iii. visited
+     iv. nth-of-type
+3. Structural pseudo classes 
+
+4. String Matching 
+
+*/
+
+
+
+
+h1 {
+      background-color: chartreuse;
+      border:3px solid green;
+}
+
+
+/* i. Hover---------------------------------- */
+h1:hover{
+      background-color: cyan;
+      border:3px solid rgb(0, 13, 255);
+}
+
+/* Hover only text input */
+/* input[type='text']:hover{
+      background-color: cyan;
+      border:3px solid rgb(0, 13, 255);
+}
+
+ */
+
+/* ii. Active -------------------------------- */
+a[href="http://google.com"]:active{
+      color: rgb(255, 0, 0);
+      
+}
+
+
+
+/* iii. Visited  ------------------------------ */
+a[href="http://google.com"]:visited{
+      color: chartreuse;
+}
+
+
+
+/* Focus -------------------------------------*/
+/* input[type="text"]{
+      background-color: aqua;
+      border: 4px solid blue;
+      border-radius: 10px;
+      font-size: 30px;
+}
+
+input[type="text"]:hover {
+      background-color: yellow;
+      border: 4px solid red;
+}
+
+input[type='text']:focus {
+      background-color:chartreuse;
+      border: 4px solid green;
+} */
+
+
+
+
+/* :nth-child   ----------------------------- */
+/* ol>li:nth-of-type(even) {
+      color: aqua;
+}
+ol>li:nth-of-type(odd) {
+      color: rgb(17, 0, 255);
+} */
+
+
+/* nth-of-type(an+b){}
+b -> offset() -> How many leave or starting point
+an -> interval -> In what manner to repeat.
+*/
+
+ul>li:nth-of-type(3n+4) {
+      color: orangered;
+      border:3px solid black;
+      background-color: orangered;
+}
+/* ul>li:nth-of-type(3n+2) {
+      border:3px solid black;
+      color: rgb(255, 255, 255);
+      background-color: white;
+} */
+/* ul>li:nth-of-type(3n+3) {
+      border:3px solid black;
+      color: chartreuse;
+      background-color: chartreuse;
+} */

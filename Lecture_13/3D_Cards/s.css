@@ -1,0 +1,44 @@
+div {
+    height: 250px;
+    width: 350px;
+    border: 2px solid black;
+}
+
+.side-a {
+    background-color: aquamarine;
+    backface-visibility: hidden;
+    z-index: 2;
+}
+.side-b {
+    background-color: rgb(246, 145, 108);
+    transform: rotateY(180deg);
+}
+
+body {
+    perspective: 1500px;
+}
+
+.wrapper {
+    position: relative;
+    height: 250px;
+    width: 350px;
+    transition: 2s;
+    transform-style: preserve-3d;
+    margin: 40px auto;
+}
+
+.side-a, .side-b {
+    position: absolute;
+}
+
+.wrapper:hover {
+    transform: rotateY(180deg);
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    opacity: 5px;
+    filter: grayscale(100%); 
+}

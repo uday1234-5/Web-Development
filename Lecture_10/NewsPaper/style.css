@@ -1,0 +1,79 @@
+section {
+    width: 80vh;
+    border: 5px solid rgb(170, 169, 169);
+    margin: 30px auto;
+    border-radius: 2px;
+    height: 70vh;
+    overflow: scroll;
+}
+
+h1 {
+    
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 1px rgb(137, 135, 136);
+}
+
+img {
+    width: 200px;
+    float: left;
+    margin: 15px;
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 6px 8px 6px grey;
+}
+img:hover {
+    width: 220px;
+    float: left;
+    margin: 15px;
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 15px 15px 8px grey;
+}
+
+h2 {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    text-shadow: 1.5px 1.5px 0px cyan;
+}
+
+article {
+    margin: 15px;
+}
+
+p {
+    margin: 15px;
+    font-family: arial;
+    line-height: 1.5;
+    color: rgb(42, 41, 41);
+    
+}
+
+.para2 {
+    clear: left;
+}
+
+hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color:rgb(124, 123, 123);
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: rgb(120, 119, 119);
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+article>p:nth-of-type(1) {
+    font-weight: bold;
+}

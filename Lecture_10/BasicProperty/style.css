@@ -1,0 +1,32 @@
+p {
+
+    /* default -> wrap */
+
+    white-space: nowrap;
+    /* overflow: scroll; */
+    /* overflow: hidden; */
+
+    /* it give the dot dot dot at last of text
+    default is 'clip'
+    */
+    text-overflow: ellipsis;
+    /* text-overflow: clip; */
+    
+}
+
+
+/* Scroll bar bhi najar na aaye or content bhi gayab na ho */
+/* p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p:hover {
+    overflow: scroll; 
+    text-overflow: clip;
+} */
+
+
+
+

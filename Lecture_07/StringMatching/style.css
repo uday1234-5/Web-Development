@@ -1,0 +1,36 @@
+/* String Matching ======================= 
+match string with like
+i. Starts with  (^)
+ii. Ends with  ($)
+iii. Present anywhere  (*)
+
+*/
+/* a[href="https://google.com"] {
+    color: chartreuse;
+} */
+
+
+
+/* start with ===================== */
+a[href ^="https"] {
+    color: chartreuse;
+}
+
+
+
+/* ends with ===================== */
+a[href $="org"] {
+    color: green;
+    font-weight: bold;
+    text-decoration-line: line-through;
+    /* text-decoration: none; */
+}  
+
+
+/* Psesent anywhere ===================== */
+a[href *="s://"] {
+    color: rgb(255, 4, 4);
+    font-weight: bold;
+    
+}
+

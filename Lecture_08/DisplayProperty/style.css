@@ -1,0 +1,60 @@
+/* display inline =========================== */
+
+/* h1 {
+    border: 3px solid black;
+    display: inline;
+} */
+
+/* h3 {
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+} */
+
+
+
+/* display inline-block =========================== */
+/* 
+h3{
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: hotpink;
+    display:inline-block;  
+} */
+
+/* span {
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: forestgreen;
+    display: inline-block;
+} */
+
+/* ============================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* display none ================================= */
+div {
+    
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    display: inline-block;
+}
+
+div:nth-of-type(2) {
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    /* Jagah nhi milegi*/
+    /* display: none;  */
+
+    /* Jagah milegi*/
+    /* visibility: hidden; */
+}

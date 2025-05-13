@@ -1,0 +1,11 @@
+li:nth-of-type(1) {
+    color: red;
+    /* list-style-type : lower-greek; */
+    /* list-style-type : none; */
+}
+li{
+    color: red;
+    list-style-type : '\1F499';
+    border : 1px solid black;
+    /* list-style-position : inside; */
+}

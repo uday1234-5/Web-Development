@@ -1,0 +1,84 @@
+/* 
+Advance Selector
+
+1. Combinators
+      i. Descendent
+     ii. Child
+    iii. Adjacent Sibling
+     iv. General Sibling
+2. Pseudo Classes
+      i. Hover
+     ii. Active
+    iii. visited
+     iv. nth-of-type
+3. Structural pseudo classes 
+
+4. String Matching 
+
+*/
+
+
+/* 
+PseudoClasses : 
+-> It can be represent by Sinlge Colon(":").
+-> Can be apply on both inline and block elments.
+
+PseudoElement :
+-> It can be represent by double colon("::").
+-> Can be apply on only block element.
+
+*/
+
+
+/* Structural pseudo classes =====================><><><><><><><><><><><><|><|> */
+div::first-letter {
+      font-size: 35px;
+      color: aqua;
+}
+
+p::first-letter {
+      font-size: 35px;
+      color: blue;
+}
+
+p:first-line {
+      color: blueviolet;
+}
+
+
+
+
+/* a[href="http://google.com"]::first-letter {
+      color: red;
+}
+
+a[href="http://google.com"]::after {
+      color: red;
+      content: "I add some content after the link";
+}
+a[href="http://google.com"]::before {
+      color: red;
+      content: "I add some content before the link";
+} */
+
+
+
+/* Escape Characters :
+&lt -> "<" ,
+&gt -> ">" ,
+U+1F4F1 -> "Mobile phone"
+ */
+ 
+div>span::before {
+      content: '\1F4F1';
+}
+
+a[href="http://google.com"]::before {
+      content: '\1F517';
+      font-size: 20px;
+} 
+
+/* To remove the underline of link */
+a {
+      text-decoration: none;
+}

@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(167, 163, 163);
+    height: 60PX;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 5px solid black;
+}
+
+nav>div {
+    display: inline-block;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+div:nth-of-type(5) {
+    position: fixed;
+    right: 30px;
+    font-family: serif;
+    font-weight: 900;
+    color: rgb(255, 0, 25);
+    text-shadow: 2px 2px 1px black;
+}
+
+#sec {
+    margin-top: 75px;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+    text-shadow: 0px -5px 1px black;
+
+}
+
+
+ 
