@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Music Player App</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="./jQuery.js"></script>
+
+
+	<!-- google font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Fjord+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:wght@500&family=Rampart+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Tilt+Prism&display=swap"
+		rel="stylesheet">
+
+	<!-- font awesome icon -->
+	<script src="https://kit.fontawesome.com/244af6fa68.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+	<section id="container">
+		<h1>Music Player</h1>
+
+		<ul id="song-list">
+			<!-- <li>song 1</li>
+			<li>song 2</li> -->
+		</ul>
+
+		<div id="play-section">
+
+			<input type="range"  id="progress">
+			<button><i class="fa-solid fa-backward-step"></i></button>
+			<button id="play-btn"><i class="fa-regular fa-circle-play"></i></button>
+			<button><i class="fa-solid fa-forward-step"></i></button>
+		</div>
+	</section>
+
+
+	<script src="app.js"></script>
+</body>
+
+</html>
