@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+
+  font-family: 'Inter', sans-serif;
+}
+
+#container {
+  border: 3px solid black;
+  width: 500px;
+  margin: 50px auto;
+  background-color: rgb(233, 233, 233);
+}
+
+h1 {
+  font-family: "Rampart One", sans-serif;
+  font-size: 32px;
+  cursor: pointer;
+  background-color: fuchsia;
+  text-align: center;
+  color: rgb(8, 8, 111);
+  padding: 16px 14px;
+  text-shadow: 2px 3px 2px rgb(255, 255, 255);
+}
+
+#inp {
+
+  width: 100%;
+  font-size: 28px;
+  padding: 8px 4px;
+  /* border: 2px solid grey; */
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+#list {
+  list-style: none;
+}
+
+
+li {
+	font-family: "Inter", sans-serif;
+
+	margin: 10px;
+	font-size: 20px;
+	width: 485px;
+	cursor: pointer;
+	padding: 10px;
+	box-shadow: 0 0 1px grey;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+#inp:focus {
+	outline: none;
+	background-color: rgba(215, 211, 211, 0.7);
+}
+/* #inp:focus {
+	outline: none;
+	background-color: rgba(215, 211, 211, 0.7);
+} */
+
+
+li:hover {
+	outline: none;
+	background-color: rgba(191, 189, 189, 0.7);
+}
+ 
+
+
+.completed {
+	text-decoration: line-through;
+	color: rgb(83, 83, 83);
+}
+
+
+
+#plus {
+	text-shadow: none;
+	float: right;
+	font-size: 40px;
+	/* display: inline-block; */
+	 margin-right: 2px;
+	 cursor: pointer;
+}
